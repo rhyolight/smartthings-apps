@@ -125,6 +125,7 @@ private sendValue(evt, Closure convert) {
         component: compId,
         stream: streamId,
         time: date,
+        timezone: location.timeZone.getID(),
         value: value
     ]
 
